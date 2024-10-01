@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    flex-direction: column;
+}
+
+.cookie-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cookie {
+    width: 500px; /* New, larger size */
+    transition: transform 0.5s ease;
+}
+
+.cookie-cracked {
+    transform: scale(1.1);
+}
+
+.fortune-text {
+    font-size: 0.7rem; /* Reduce the font size */
+    color: black;
+    display: none;
+    position: absolute;
+    top: 60%; /* Move the text lower on the page */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: normal; /* Allow text to wrap into two lines */
+    text-align: center; /* Center-align the text */
+    width: 80%; /* Set a width to allow line breaks */
+    line-height: 1.5; /* Adjust line spacing to make it more readable */
+    font-family: "Arial", sans-serif;
+}
+
+
+.refresh-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.refresh-btn:hover {
+    background-color: #e67e22;
+}
