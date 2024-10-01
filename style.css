@@ -33,7 +33,7 @@ body {
     transform: translate(-50%, -50%);
     white-space: normal; /* Allow text to wrap into two lines */
     text-align: center; /* Center-align the text */
-    width: 80%; /* Set a width to allow line breaks */
+    width: 50%; /* Set a width to allow line breaks */
     line-height: 1.5; /* Adjust line spacing to make it more readable */
     font-family: "Arial", sans-serif;
 }
